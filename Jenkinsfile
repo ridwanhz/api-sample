@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git url: 'https://github.com/ridwanhz/cms-backend.git', branch: 'main'
+        git url: 'https://github.com/ridwanhz/api-sample.git', branch: 'main'
       }
     }
 
