@@ -50,7 +50,7 @@ pipeline {
 
             // Push to GitHub using credentials
             withCredentials([usernamePassword(credentialsId: 'github-creds', usernameVariable: 'GIT_USER', passwordVariable: 'GIT_PASS')]) {
-              sh 'git remote set-url origin https://${GIT_USER}:${GIT_PASS}@github.com/ridwanhz/cms-backend.git'
+              sh 'git remote set-url origin https://${GIT_USER}:${GIT_PASS}@github.com/ridwanhz/api-sample.git'
               sh 'git push origin main'
             }
           }
