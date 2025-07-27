@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: rebelmitsui/backend:b489d4e
+        image: rebelmitsui/backend:da4fc07
         ports:
         - containerPort: 5000
         envFrom:
